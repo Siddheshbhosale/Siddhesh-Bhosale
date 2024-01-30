@@ -32,12 +32,46 @@ const Home = () => {
                         </div> */}
                     </div>
                 </div>
+
                 <div className="content">
-                    <div style={{ width: "2rem" }}>
+
+
+                    <section className="profile">
+                        <div className="bg-effect">
+                            <div className="profile-image">
+                            </div>
+                            <div className="profile-info">
+                                <div>
+                                    <div className="profile-name">Siddhesh Bhosale</div>
+                                    <div>Profile</div>
+                                </div>
+                                <div>Linkedin</div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section className="work-details">
+                        <div className="mega-project">
+                            <div style={{fontSize:"1.25rem"}}>Full Stack Projects</div>
+                            <div className="project-grid">
+                                <a target="_black" href="https://github.com/nwaliaez/discord-clone" style={{ textDecoration: 'none' }}>
+                                    <div  className="card">
+                                        <img alt="spotify" src="https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75" />
+                                        <div style={{ display: 'flex', flexDirection: "column", padding: "0.5rem 1rem", height:'6rem'}}>
+                                            <div style={{display:"flex", fontWeight:"bold"}}>Discord Clone</div>
+                                            <div style={{display: 'flex',fontSize: "0.75rem"}}>Next.js 13, React Hook Form, Zustand, Shadcn, Typescript</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    {/* <div style={{ width: "2rem" }}>
                         hello2
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eligendi nam iusto similique perferendis nesciunt impedit, illo accusamus ipsa tempora deleniti soluta repudiandae vel officiis neque possimus. Dolores, nobis recusandae!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ex minus voluptate rem fuga ab, hic illo voluptas! Velit soluta laborum excepturi nihil sit officiis accusamus omnis provident, harum voluptatibus?
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
