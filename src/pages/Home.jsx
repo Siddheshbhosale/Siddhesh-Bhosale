@@ -35,7 +35,6 @@ const Home = () => {
 
                 <div className="content">
 
-
                     <section className="profile">
                         <div className="bg-effect">
                             <div className="profile-image">
@@ -45,7 +44,7 @@ const Home = () => {
                                     <div className="profile-name">Siddhesh Bhosale</div>
                                     <div>Profile</div>
                                 </div>
-                                <div>Linkedin</div>
+                                <div className="profile-contact">Linkedin</div>
                             </div>
                         </div>
                     </section>
@@ -54,7 +53,7 @@ const Home = () => {
                     <section className="work-details">
                         <div className="mega-project">
                             <div style={{fontSize:"1.25rem"}}>Full Stack Projects</div>
-                            <div className="project-grid">
+                            <div className="mega-project-grid">
                                 <a target="_black" href="https://github.com/nwaliaez/discord-clone" style={{ textDecoration: 'none' }}>
                                     <div  className="card">
                                         <img alt="spotify" src="https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75" />
@@ -64,6 +63,44 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </a>
+                                <a target="_black" href="https://github.com/nwaliaez/discord-clone" style={{ textDecoration: 'none' }}>
+                                    <div  className="card">
+                                        <img alt="spotify" src="https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75" />
+                                        <div style={{ display: 'flex', flexDirection: "column", padding: "0.5rem 1rem", height:'6rem'}}>
+                                            <div style={{display:"flex", fontWeight:"bold"}}>Discord Clone</div>
+                                            <div style={{display: 'flex',fontSize: "0.75rem"}}>Next.js 13, React Hook Form, Zustand, Shadcn, Typescript</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                         <div >{/*style={{padding:'0px', display:'grid',gap:'2rem'}} */}
+                            <div style={{fontSize:"1.25rem"}}>Technologies I know</div>
+                            <div className="tech">
+                                <div className="tech-block">
+                                    <div className="tech-title">Frontend</div>
+                                    <div className="tech-name-group">
+                                        <div className="tech-name">
+                                            <img width="20px" height="20px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" />
+                                            React.js
+                                        </div>
+                                        <div className="tech-name" style={{border: '1px solid rgba(59, 130, 246, 0.6)'}}>JavaScript.js</div>
+                                        <div className="tech-name" style={{border: '1px solid rgba(234,179,8,.6)'}}>Tailwind CSS</div>
+                                        <div className="tech-name" style={{border: '1px solid rgba(239,68,68,.6)'}}>HTML</div>
+                                        <div className="tech-name" style={{border: '1px solid hsla(220,9%,46%,.6)'}}>CSS</div>
+                                    </div>
+                                </div>
+                                <div className="tech-block">
+                                    <div className="tech-title">Backend</div>
+                                    <div className="tech-name-group">
+                                        <div className="tech-name">Node.js</div>
+                                        <div className="tech-name">Express.js</div>
+                                        <div className="tech-name">Mocha chai</div>
+                                        <div className="tech-name">Typescript</div>
+                                        {/* <div className="tech-name">CSS</div> */}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
