@@ -19,7 +19,7 @@ body{
     width: 23%;
     overflow-y: auto;
     background-color: #14131a; /*temp; */
-    padding: 0 20px;
+    padding: 5px 20px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -42,11 +42,18 @@ body{
     line-height: 1.25rem;
     gap: 1rem;
 }
+.menu-item:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 50px 4px; */
+    filter: brightness(1.2);
+}
 
 /* Home page content */
 .content{
     width: 77%;
     overflow-y: auto;
+    padding-top: 10px;
     color: white; /*temp; */
 }
 .profile{
@@ -160,6 +167,13 @@ body{
     border-radius: 0.375rem; 
     font-size: 0.75rem; 
     padding: 0.5rem; 
+}
+
+
+.mini-project{
+    margin-top: 20px;
+    display: grid;
+    gap:1rem;
 }
 @media only screen and  (max-width: 767px) {
     .mega-project-grid{
