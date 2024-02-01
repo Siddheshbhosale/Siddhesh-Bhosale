@@ -44,6 +44,7 @@ body{
 }
 .menu-item:hover{
     transform: translateY(-5px);
+    transition: transform 0.5s ease;
     cursor: pointer;
     /* box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 50px 4px; */
     filter: brightness(1.2);
@@ -53,22 +54,25 @@ body{
 .content{
     width: 77%;
     overflow-y: auto;
+    color: #fff;
     padding-top: 10px;
-    color: white; /*temp; */
 }
 .profile{
     background-image: url('../../public/copy2.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .bg-effect{
     display: flex;
     padding: 1.5rem 2.5rem;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
     gap: 2.5rem; 
+    
 }
 
 .profile-image{
@@ -87,6 +91,16 @@ body{
     flex-shrink: 1;
     justify-content: space-between;
     align-items: center; 
+}
+.profile-contact{
+        display: block;
+        background-color:black;
+        display: flex;
+        align-items: self-end;
+        width: fit-content;
+        padding: 5px;
+        gap:0.25rem;
+        border-radius: 0.25rem;
 }
 .profile-name{
     font-weight:700;
@@ -175,6 +189,19 @@ body{
     display: grid;
     gap:1rem;
 }
+.progress-bar{
+    width: 100%;
+    height: 7px;
+    background-color: #ccc;
+    /* position: absolute; */
+    bottom: 0;
+    border-radius: 0 0 8px 8px;
+}
+
+.linkein-icon{
+    display: none
+}
+
 @media only screen and  (max-width: 767px) {
     .mega-project-grid{
         grid-template-columns: repeat(1,minmax(0,1fr));
@@ -186,15 +213,29 @@ body{
     .content {
       width: 100%;
     }
+    
     .bg-effect{
         justify-content: center;
-        gap:0.5rem;
+        gap:0.75rem;
     }
     .profile-contact{
         display: none;
     }
+    .profile-info{
+        flex-grow: 0;
+    }
     .tech{
         grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+
+    .linkein-icon{
+        display: block;
+        background-color:black;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 0.25rem;
     }
  }
 
