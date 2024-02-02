@@ -2,6 +2,7 @@ import { useState } from "react";
 import './Home.css';
 import Navbar from "./Navbar";
 import photo from '../photo.jpg';
+import Experience from "../components/Experience";
 
 const Home = () => {
     return (
@@ -99,7 +100,7 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-
+                        <Experience/>
                         <div >{/*style={{padding:'0px', display:'grid',gap:'2rem'}} */}
                             <div id="tech-scroll" style={{ fontSize: "1.25rem" }}>Technologies I know</div>
                             <div className="tech">
@@ -156,6 +157,10 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
+
+                        
+
+                        <div></div>
                     </section>
                     {/* <div style={{ width: "2rem" }}>
                         hello2
