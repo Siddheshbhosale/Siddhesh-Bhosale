@@ -6,7 +6,9 @@
     /* background-color: #14131a; */
     /* Add more styles as needed */
 }
-
+html {
+    scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
 width: 10px;
 }
