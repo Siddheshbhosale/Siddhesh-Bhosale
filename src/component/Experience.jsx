@@ -7,7 +7,7 @@ const Experience = () => {
                 <div className="experience-title">Experience</div>
                 <div className="experience-content">
                     <div style={{ color: "#fff" }}>Associate Software Engineer - Hoonartek</div>
-                    <div style={{ width: "100%", padding: "0 1rem", backgroundColor: "#1c1b23", paddingLeft: "2rem", borderRadius: "5px" }}>
+                    <div style={{ width: "100%", padding: "0.5rem 1rem", backgroundColor: "#1c1b23", paddingLeft: "2rem", borderRadius: "5px" }}>
                         <ul>
                             <li>Built user interfaces using React.js and Material-UI.</li>
                             <li>Optimizing UX and Slashed codebase by 50% via optimization & refactoring, boosting efficiency &
@@ -20,7 +20,7 @@ const Experience = () => {
                 </div>
                 <div className="experience-content">
                     <div style={{ color: "#fff" }}>Software Engineer - Bentley Systems</div>
-                    <div style={{ width: "100%", padding: "0 1rem", backgroundColor: "#1c1b23", paddingLeft: "2rem" }}>
+                    <div style={{ width: "100%", padding: "0.5rem 1rem", backgroundColor: "#1c1b23", paddingLeft: "2rem" }}>
                         <ul>
                             <li>Frontend Development: Developed a React.js and Node.js web app that increased user
                                 engagement by 25% by maximizing API data utilization.</li>
