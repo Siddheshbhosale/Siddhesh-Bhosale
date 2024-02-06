@@ -15,7 +15,7 @@ const Experience = () => {
                             <li>Streamlined data retrieval through efficient SQL queries.</li>
                             <li>Modernized codebase to ES6 standards, future-proofing & streamlining development.</li>
                         </ul>
-                        <div style={{ color: "blue",cursor:"pointer" }}>Show more...</div>
+                        <div style={{ color: "#5d5df1",cursor:"pointer" }}>Show more...</div>
                     </div>
                 </div>
                 <div className="experience-content">
@@ -31,7 +31,7 @@ const Experience = () => {
                             <li>Bug Resolution: Identified and resolved critical region-related bugs and actively participated in
                                 LDFlag-related work.</li>
                         </ul>
-                        <div style={{ color: "blue",cursor:"pointer" }}>Show more...</div>
+                        <div style={{ color: "#5d5df1",cursor:"pointer" }}>Show more...</div>
                     </div>
                 </div>
             </div>

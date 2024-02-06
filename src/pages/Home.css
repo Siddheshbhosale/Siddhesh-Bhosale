@@ -57,7 +57,7 @@ body{
     padding-top: 10px;
 }
 .profile{
-    background-image: url('../../public/copy2.jpeg');
+    background-image: url('../Images/Profile-background-image.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,8 +68,8 @@ body{
     display: flex;
     padding: 1.5rem 2.5rem;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.532); 
-    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.521); 
+    backdrop-filter: blur(12.5px);
     gap: 1.5rem; 
     
 }
@@ -99,6 +99,7 @@ body{
         padding:5px 10px;
         gap:0.25rem;
         border-radius: 0.25rem;
+        cursor: pointer;
 }
 .profile-name{
     font-weight:700;
@@ -207,7 +208,6 @@ body{
     bottom: 0;
     border-radius: 0 0 8px 8px;
 }
-
 .linkein-icon{
     display: none
 }
