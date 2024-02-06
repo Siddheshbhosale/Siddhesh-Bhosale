@@ -13,7 +13,9 @@ const Home = () => {
         <>
             <Navbar />
             <div className="HomeComponent">
+            <div className="menu">
                 <Menu/>
+            </div>
                 <div className="content">
                     <section id="Home-scroll" className="profile">
                         <div className="bg-effect">

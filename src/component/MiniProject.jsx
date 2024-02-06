@@ -1,14 +1,14 @@
 import React from "react";
-import emoji from "../Images/emoji.JPG";
-import stockPF from "../Images/stock-profit-loss.PNG";
-import bookRecommendation from "../Images/book-recommendation.JPG";
-import LuckyBirthday from "../Images/Lucky-birthday.JPG";
-import triangle from "../Images/triangle.JPG";
-import birthdayPalindrome from "../Images/birthday-palindrome.JPG";
-import cashManager from "../Images/cash-manager.JPG";
-import pirateLanguage from "../Images/pirate-language.JPG";
-import CLIApp from "../Images/CLI-App.JPG";
-import CLIQuiz from "../Images/CLI-Quiz.JPG";
+import emoji from "../Images/MiniProject/emoji.JPG";
+import stockPF from "../Images/MiniProject/stock-profit-loss.PNG";
+import bookRecommendation from "../Images/MiniProject/book-recommendation.JPG";
+import LuckyBirthday from "../Images/MiniProject/Lucky-birthday.JPG";
+import triangle from "../Images/MiniProject/triangle.JPG";
+import birthdayPalindrome from "../Images/MiniProject/birthday-palindrome.JPG";
+import cashManager from "../Images/MiniProject/cash-manager.JPG";
+import pirateLanguage from "../Images/MiniProject/pirate-language.JPG";
+import CLIApp from "../Images/MiniProject/CLI-App.JPG";
+import CLIQuiz from "../Images/MiniProject/CLI-Quiz.JPG";
 
 const MiniProject = () => {
     return (
@@ -146,8 +146,6 @@ const MiniProject = () => {
                             <div style={{ display: 'flex', fontSize: "0.75rem", color: "#4f4f52" }}>React, JavaScript, HTMl5, CSS3</div>
                         </div>
                     </a>  
-
-
 
                     <a target="_black" href="https://github.com/nwaliaez/discord-clone" style={{ textDecoration: 'none' }}>
                         <div className="card" style={{ backgroundColor: "#1c1b23" }}>
