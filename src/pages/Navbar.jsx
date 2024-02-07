@@ -16,8 +16,8 @@ const Navbar = () => {
                 <div className="nav-circle" style={{ backgroundColor: "#2bd576" }}></div>
             </div>
             <div style={{ display: "flex", alignItems: "center" }}>
-                <div>
-                    <a href={Resume} style={{ textDecoration: "none", color: '#8b8a91' }} download="Siddhesh Bhosale (Resume)">
+                <div> 
+                    <a href={Resume} style={{ textDecoration: "none", color:'#9e9da4'}} download="Siddhesh Bhosale (Resume)">{/*#8b8a91*/}
                         <button disabled="" className="contact-button">
                             Resume
                             <i style={{ fontSize: "1rem" }} class="fa fa-download" aria-hidden="true"></i>

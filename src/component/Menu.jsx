@@ -33,7 +33,7 @@ const Menu = ({MenuOpenClose}) => {
                 </div>
 
                 <div className="menu-item" onClick={() => { if(MenuOpenClose)MenuOpenClose(); scrollTo("experience-scroll") }}>
-                    <img color="#8b8a91" width="20px" src={experience} alt="" />
+                    <div style={{width:"24px",height:"24px",textAlign:"center"}}><img color="#8b8a91" width="20px" src={experience} alt="" /></div>
                     Experience
                 </div>
 
