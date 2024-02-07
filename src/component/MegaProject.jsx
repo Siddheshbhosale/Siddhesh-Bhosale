@@ -7,14 +7,14 @@ import { Code } from "lucide-react";
 const details = [{
     image: musicApp,
     Url: "https://voicetube.netlify.app/",
-    src: "",
+    src: "https://github.com/Siddheshbhosale/VoiceTube-client",
     title: "VocieTube",
     technology: "React.js, JavaScript, TailwindCSS, Node.js, Express.js, Firebase, MongoDB"
 },
 {
     image: Netflix,
     Url: "https://voicetube.netlify.app/",
-    src: "",
+    src: "https://github.com/Siddheshbhosale/Netflix-clone",
     title: "Netflix Clone",
     technology: "React.js, JavaScript, TailwindCSS, Node.js, MongoDB"
 },

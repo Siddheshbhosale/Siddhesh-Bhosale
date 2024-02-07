@@ -24,6 +24,17 @@ const experienceData = [
             "Bug Resolution: Identified and resolved critical region-related bugs and actively participated in LDFlag-related work.",
         ],
         technology: ["React.js", "TypeScript", "Redux Toolkit"]
+    },
+    {
+        company: "KITCOEK Web-Team",
+        content: [
+            "Working on the college official website as a front end devel-oper",
+            "Designed and develop UI screens using Figma",
+        ],
+        showMoreContent: [
+            "Developed the front-end of the website using technologies like ReactJS, Tailwind CSS, HTML"
+        ],
+        technology: ["Figma", "Tailwind CSS", "Next.js"]
     }];
 
 const ExperienceContent = (props) => {
@@ -40,10 +51,10 @@ const ExperienceContent = (props) => {
                         <li key={index} className="experience-line-spacing">{item}</li>
                     ))}
                 </ul>
-                <div onClick={() => { setshowMore(!showMore) }} className="experience-line-spacing" style={{ color: "#5d5df1", cursor: "pointer"}}>
+                <div onClick={() => { setshowMore(!showMore) }} className="experience-line-spacing" style={{ color: "#5d5df1", cursor: "pointer" }}>
                     {props.showMoreContent ? (showMore ? "Show less..." : "Show more...") : ""}
                 </div>
-            {props.technology && <div className="tech-name-group">{
+                {props.technology && <div className="tech-name-group">{
                     props.technology.map((tech) => {
                         return (
                             <div className="tech-name" style={{ border: '1px solid rgba(234,179,8,.6)' }}>
@@ -52,10 +63,10 @@ const ExperienceContent = (props) => {
                         )
                     })
                 }
+                </div>
+                }
             </div>
-            }
-            </div>
-            
+
         </div>
     );
 }
