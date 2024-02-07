@@ -1,13 +1,22 @@
 import React from "react";
-import VoiceTube from "../Images/MegaProject/VoiceTube.jpg"
+import VoiceTube from "../Images/MegaProject/VoiceTube.jpg";
+import Netflix from "../Images/MegaProject/netflix-Clone.jpg";
+import musicApp from "../Images/MegaProject/music-logo.png";
 import { Radio } from "lucide-react";
 import { Code } from "lucide-react";
 const details = [{
-    image: VoiceTube,
+    image: musicApp,
     Url: "https://voicetube.netlify.app/",
     src: "",
     title: "VocieTube",
-    technology: "React.js, JavaScript, TailwindCSS, Node.js, Express.js,Firebase, MongoDB"
+    technology: "React.js, JavaScript, TailwindCSS, Node.js, Express.js, Firebase, MongoDB"
+},
+{
+    image: Netflix,
+    Url: "https://voicetube.netlify.app/",
+    src: "",
+    title: "Netflix Clone",
+    technology: "React.js, JavaScript, TailwindCSS, Node.js, MongoDB"
 },
 {
     image: "https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75",

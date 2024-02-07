@@ -168,7 +168,7 @@ body {
 }
 
 .card-image {
-    border: 2px solid #8b8a91;
+    border: 1px solid #3d3d3e;
     border-radius: 5px;
     padding-top: 56.25%;
     /* 16:9 aspect ratio */

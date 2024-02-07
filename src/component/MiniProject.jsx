@@ -56,7 +56,7 @@ const details = [{
     src:"https://github.com/Siddheshbhosale/Fun-with-Triangle-NeogCamp"
 },
 {
-    url: "https://wb56n.csb.app/",
+    url: "https://wz1uj-5173.csb.app/",
     image: birthdayPalindrome,
     projectTitle: "Birthday Palindrome",
     technology: "React, JavaScript, HTMl5, CSS3",
@@ -112,7 +112,7 @@ const MiniProjectCard = (props) => {
             </div>
             <div style={{ display: 'flex', flexDirection: "column", padding: "0.5rem 1rem", backgroundColor: "#1c1b23", borderRadius: '5px', height: '5rem' }}>
                 <div style={{ display: "flex", fontWeight: "bold", color: "white", paddingBottom: "0.25rem" }}>{props.projectTitle}</div>
-                <div style={{ display: 'flex', fontSize: "0.75rem", color: "#4f4f52" }}>{props.technology}</div>
+                <div style={{ display: 'flex', fontSize: "0.75rem", color: "#8b8a91" }}>{props.technology}</div>
             </div>
         </a>
     );
