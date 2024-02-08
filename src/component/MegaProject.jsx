@@ -13,18 +13,19 @@ const details = [{
 },
 {
     image: Netflix,
-    Url: "https://voicetube.netlify.app/",
+    Url: "https://github.com/Siddheshbhosale/Netflix-clone",
     src: "https://github.com/Siddheshbhosale/Netflix-clone",
     title: "Netflix Clone",
     technology: "React.js, JavaScript, TailwindCSS, Node.js, MongoDB"
 },
-{
-    image: "https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75",
-    Url: "",
-    title: "Discord Clone",
-    technology: "Next.js 13, React Hook Form, Zustand, Shadcn, Typescript"
-}
+// {
+//     image: "https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdiscord-clone.jpeg&w=1920&q=75",
+//     Url: "",
+//     title: "Discord Clone",
+//     technology: "Next.js 13, React Hook Form, Zustand, Shadcn, Typescript"
+// }
 ]
+
 const MegaProjectCard = (props) => {
     return (
         // <a target="_black" href={props.Url} style={{ textDecoration: 'none' }}>

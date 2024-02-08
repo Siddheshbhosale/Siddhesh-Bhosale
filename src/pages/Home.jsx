@@ -48,7 +48,12 @@ const Home = () => {
                         <MiniProject />
                         <div>{/* extra space */}</div>
                     </section>
-
+                    <section className="footer">
+                       <a href="https://github.com/Siddheshbhosale"> <i class="fa fa-github"></i></a>
+                       <a href="https://www.linkedin.com/in/siddheshbhosale/"><i class="fa fa-linkedin"></i></a>
+                       <a href="mailto:bhosalesiddhesh9@gmail.com"><i class="fa fa-envelope"></i></a>
+                       <a href="8087337545"><i class="fa fa-phone"></i></a>
+                    </section>
                 </div>
             </div>
         </>

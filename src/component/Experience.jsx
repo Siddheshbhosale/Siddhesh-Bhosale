@@ -25,17 +25,34 @@ const experienceData = [
         ],
         technology: ["React.js", "TypeScript", "Redux Toolkit"]
     },
-    {
+    // {
+    //     company: "KITCOEK Web-Team",
+    //     content: [
+    //         "Working on the college official website as a front end devel-oper",
+    //         "Designed and develop UI screens using Figma",
+    //     ],
+    //     showMoreContent: [
+    //         "Developed the front-end of the website using technologies like ReactJS, Tailwind CSS, HTML"
+    //     ],
+    //     technology: ["Figma", "Tailwind CSS", "Next.js"]
+    // }
+    ,{
         company: "KITCOEK Web-Team",
         content: [
-            "Working on the college official website as a front end devel-oper",
-            "Designed and develop UI screens using Figma",
+            "Spearheaded the design and development of user interfaces for the college's official website using Figma, ensuring a visually appealing and user-friendly experience.",
+            "Implemented the front-end of the website by leveraging advanced technologies, including ReactJS, Tailwind CSS, and HTML, resulting in a seamless and responsive user interface.",
         ],
         showMoreContent: [
-            "Developed the front-end of the website using technologies like ReactJS, Tailwind CSS, HTML"
+            "Played a key role in enhancing the overall aesthetic and functionality of the college's online presence through the meticulous design and development of UI screens and front-end components",
         ],
         technology: ["Figma", "Tailwind CSS", "Next.js"]
-    }];
+    }
+];
+// Spearheaded the design and development of user interfaces for the college's official website using Figma, ensuring a visually appealing and user-friendly experience.
+
+// Implemented the front-end of the website by leveraging advanced technologies, including ReactJS, Tailwind CSS, and HTML, resulting in a seamless and responsive user interface.
+
+// Played a key role in enhancing the overall aesthetic and functionality of the college's online presence through the meticulous design and development of UI screens and front-end components.
 
 const ExperienceContent = (props) => {
     const [showMore, setshowMore] = useState(false);

@@ -287,39 +287,19 @@ body {
     display: none
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
-    .mega-project-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .menu {
-        width: 0;
-        display: none;
-    }
-
-    .content {
-        width: 100%;
-    }
-
-}
-
 /* Experience  */
 .experience {
     display: grid;
     gap: 1rem;
 }
-
 .experience-title {
     font-size: 1.25rem;
 }
-
 .experience-content {
     color: #8b8a91;
     display: grid;
     gap: 0.5rem;
 }
-
 .experience-point{
     width: 100%;
     padding: 0.5rem 1rem;
@@ -331,39 +311,45 @@ body {
     margin-bottom: 1rem
 }
 
+/* footer */
+.footer{
+    height: 3rem;
+    background-color: #1c1b23;
+    /* backdrop-filter: blur(12.5px);
+    filter: blur(2px); */
+    border-radius: 5px;
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
 
 
 @media only screen and (max-width: 767px) {
     .mega-project-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
-
     .menu {
         width: 0;
         display: none;
     }
-
     .content {
         width: 100%;
     }
-
     .bg-effect {
         justify-content: center;
         gap: 0.75rem;
     }
-
     .profile-contact {
         display: none;
     }
-
     .profile-info {
         flex-grow: 0;
     }
-
     .tech {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
-
     .linkein-icon {
         display: block;
         background-color: black;
@@ -373,8 +359,21 @@ body {
         padding: 5px;
         border-radius: 0.25rem;
     }
-
     .profile-profile {
         padding: 5px 0;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    .mega-project-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .menu {
+        width: 0;
+        display: none;
+    }
+    .content {
+        width: 100%;
     }
 }

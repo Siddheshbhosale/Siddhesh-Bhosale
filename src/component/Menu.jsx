@@ -51,18 +51,21 @@ const Menu = ({MenuOpenClose}) => {
                 <div style={{ paddingTop: '10px' }}>Profiles</div>
 
 
-                <div className="menu-item">
+                <a href="https://www.linkedin.com/in/siddheshbhosale/"><div className="menu-item">
                     <Linkedin color="#0277b5" />
                     LinkedIn
-                </div>
-                <div className="menu-item">
+                </div></a>
+                <a href="https://github.com/Siddheshbhosale"><div className="menu-item">
                     <Github color="#2a9d8f" />
                     Github
-                </div>
+                </div></a>
+
+                <a href="https://leetcode.com/Siddheshbhosale/">
                 <div className="menu-item">
                     <img  width="24" height="24" src={leetcode}></img>
                      Leetcode
-                </div>
+                </div></a>
+                
                 <div className="menu-item">
                     <img  width="24" height="24" src={codechef}></img>
                     Codechef
