@@ -13,7 +13,7 @@ const details = [{
 },
 {
     image: Netflix,
-    Url: "https://github.com/Siddheshbhosale/Netflix-clone",
+    Url: "https://netflix-clone-010.netlify.app/login",
     src: "https://github.com/Siddheshbhosale/Netflix-clone",
     title: "Netflix Clone",
     technology: "React.js, JavaScript, TailwindCSS, Node.js, MongoDB"
