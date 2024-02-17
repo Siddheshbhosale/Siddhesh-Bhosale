@@ -8,7 +8,7 @@ const details = [{
     image: musicApp,
     Url: "https://voicetube.netlify.app/",
     src: "https://github.com/Siddheshbhosale/VoiceTube-client",
-    title: "VocieTube",
+    title: "VoiceTube",
     technology: "React.js, JavaScript, TailwindCSS, Node.js, Express.js, Firebase, MongoDB"
 },
 {
