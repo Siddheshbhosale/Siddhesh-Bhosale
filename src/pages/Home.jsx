@@ -42,8 +42,8 @@ const Home = () => {
                         </div>
                     </section>
                     <section className="work-details">
-                        <MegaProject />
                         <Experience />
+                        <MegaProject />
                         <TechnologyDetails />
                         <MiniProject />
                         <div>{/* extra space */}</div>

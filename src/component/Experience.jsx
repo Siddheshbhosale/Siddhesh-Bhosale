@@ -4,17 +4,22 @@ const experienceData = [
     {
         company: "Associate Software Engineer - Hoonartek",
         content: [
-            "Built user interfaces using React.js and Material-UI.",
-            "Optimizing UX and Slashed codebase by 50% via optimization & refactoring, boosting efficiency & maintainability.",
+            " Big Data",
+            "Engineered Azure Data Factory pipelines for efficient data flow.",
+            "Led a successful Event Hub Proof of Concept, showcasing data streaming and Delta storage service.",
+            "Reduced data inaccuracy through client collaboration and regular validations by 95%.",
+            " Frontent Development"
         ],
         showMoreContent: [
+            "Built user interfaces using React.js and Material-UI.",
+            "Optimizing UX and Slashed codebase by 50% via optimization & refactoring, boosting efficiency & maintainability.",
             "Streamlined data retrieval through efficient SQL queries.",
             "Modernized codebase to ES6 standards, future-proofing & streamlining development.",
         ],
         technology: ["React.js", "JavaScript", "Material UI"]
     },
     {
-        company: "Software Engineer - Bentley Systems",
+        company: "Software Engineer intern - Bentley Systems",
         content: [
             "Frontend Development: Developed a React.js and Node.js web app that increased user engagement by 25% by maximizing API data utilization.",
             "Backend Development: Implemented a dynamic request-handling feature in TypeScript backend, reducing response times.",
@@ -62,7 +67,7 @@ const ExperienceContent = (props) => {
             <div className="experience-point">
                 <ul>
                     {props.content.map((item, index) => (
-                        <li key={index} className="experience-line-spacing">{item}</li>
+                        item[0]!==' '?<li key={index} className="experience-line-spacing">{item}</li>:<h3 style={{marginBottom: "0.3rem"}}>{item}</h3>
                     ))}
                     {showMore && props.showMoreContent && props.showMoreContent.map((item, index) => (
                         <li key={index} className="experience-line-spacing">{item}</li>
@@ -74,7 +79,7 @@ const ExperienceContent = (props) => {
                 {props.technology && <div className="tech-name-group">{
                     props.technology.map((tech) => {
                         return (
-                            <div className="tech-name" style={{ border: '1px solid rgba(234,179,8,.6)' }}>
+                            <div className="tech-name" style={{ border: '1px solid rgba(59, 130, 246, 0.6)' }}>
                                 {tech}
                             </div>
                         )
@@ -91,7 +96,7 @@ const Experience = () => {
     return (
         <>
             <div id="experience-scroll" className="experience">
-                <div className="experience-title">Experience</div>
+                <div className="experience-title">Work Experience</div>
                 {
                     experienceData.map((content) => <ExperienceContent {...content} />)
                 }
