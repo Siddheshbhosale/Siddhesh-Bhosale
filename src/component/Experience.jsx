@@ -4,19 +4,21 @@ const experienceData = [
     {
         company: "Associate Software Engineer - Hoonartek",
         content: [
+            " Frontent Development",
+            "Developed a web application to automate the verification and approval workflow of warehouse inventory Excel files, streamlining the process across multiple managerial levels",
+            "Designed dashboard and implemented efficient optimization techniques to enhance page performance, reducing re-renders by 70%.",
+            "Built a chat application using WebSockets, successfully reducing the organization's communication gap and increasing efficiency by 93%.",
+            "Developed REST APIs for user registration, login, and user profile management, incorporating various CRUD operations for enhanced user experience.",
+            "Used Function Component and React Hook for boosting efficiency and maintainability.",
+            "Modernized codebase to ES6 standards, future-proofing and streamlining development.",
             " Big Data",
-            "Engineered Azure Data Factory pipelines for efficient data flow.",
-            "Led a successful Event Hub Proof of Concept, showcasing data streaming and Delta storage service.",
-            "Reduced data inaccuracy through client collaboration and regular validations by 95%.",
-            " Frontent Development"
         ],
         showMoreContent: [
-            "Built user interfaces using React.js and Material-UI.",
-            "Optimizing UX and Slashed codebase by 50% via optimization & refactoring, boosting efficiency & maintainability.",
-            "Streamlined data retrieval through efficient SQL queries.",
-            "Modernized codebase to ES6 standards, future-proofing & streamlining development.",
+            "Engineered Azure Data Factory pipelines for efficient data flow.",
+            "Led a successful Event Hub Proof of Concept, showcasing data streaming and Delta storage service.",
+            "Reduced data inaccuracy through client collaboration and regular validations by 95%."
         ],
-        technology: ["React.js", "JavaScript", "Material UI"]
+        technology: ["React.js","TypeScript", "JavaScript", "Material UI"]
     },
     {
         company: "Software Engineer intern - Bentley Systems",
@@ -33,7 +35,7 @@ const experienceData = [
     // {
     //     company: "KITCOEK Web-Team",
     //     content: [
-    //         "Working on the college official website as a front end devel-oper",
+    //         "Working on the college official website as a front end developer",
     //         "Designed and develop UI screens using Figma",
     //     ],
     //     showMoreContent: [
